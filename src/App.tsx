@@ -3,7 +3,7 @@ import {Counter} from "./components/Counter/Counter";
 import s from './App.module.css'
 import {SettingsCounter} from "./components/SettingsCounter/SettingsCounter";
 //sad
-export const App = () => {
+const App = () => {
 
     const [startValue, setStartValue] = useState(0)
     const [maxValue, setMaxValue] = useState(5)
@@ -75,5 +75,7 @@ export const App = () => {
     </div>
   );
 }
+
+export default App;
 
 
