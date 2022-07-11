@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {Counter} from "./components/Counter/Counter";
 import s from './App.module.css'
 import {SettingsCounter} from "./components/SettingsCounter/SettingsCounter";
-
+//sad
 export const App = () => {
 
     const [startValue, setStartValue] = useState(0)
